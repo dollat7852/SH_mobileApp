@@ -1,7 +1,5 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:sh_capstone2/app/files/custom_widget/CustomSizedBox.dart';
 
@@ -39,7 +37,8 @@ class SignUpPage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     CustomTextBox(
-                      text: 'Create a new account\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t',
+                      text:
+                          'Create a new account\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t',
                       size: 20,
                     ),
                     SizedBox(height: 8),
@@ -85,7 +84,7 @@ class SignUpPage extends StatelessWidget {
                         ],
                       ),
                     ),
-                   ],
+                  ],
                 ),
               ),
             ),

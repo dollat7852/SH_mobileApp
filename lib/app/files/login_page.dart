@@ -1,7 +1,5 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:sh_capstone2/app/files/custom_widget/CustomSizedBox.dart';
 
@@ -81,11 +79,11 @@ class loginPage extends StatelessWidget {
                       ),
                     ),
                     SizedBox(height: 100),
-                    Align(child: Opacity(
-                      opacity: 0.5,
-                      child: ClickableText(
+                    Align(
+                      child: Opacity(
+                        opacity: 0.5,
+                        child: ClickableText(),
                       ),
-                    ),
                     ),
                   ],
                 ),
